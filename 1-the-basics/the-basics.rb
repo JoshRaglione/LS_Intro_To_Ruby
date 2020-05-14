@@ -89,6 +89,71 @@ puts movies[:the_evil_dead]
  puts "----------------------------------------------------"
 # "----------------------------------------------------"
 
+# 4. Use the dates from the previous example and store them in an array. Then make your program output the same thing as exercise 3.
+
+# My Answer
+
+array = [];
+
+movies.each{|k,v| array.push(v)}
+
+puts array
+
+# LS Answer
+puts "LS"
+
+dates = [1975, 2004, 2013, 2001, 1981]
+
+puts dates[0]
+puts dates[1]
+puts dates[2]
+puts dates[3]
+puts dates[4]
+
+puts "----------------------------------------------------"
+# "----------------------------------------------------"
+require 'pry'
+
+# 5. Write a program that outputs the factorial of the numbers 5, 6, 7, and 8.
+
+#My Answer
+puts 5*4*3*2*1
+puts 6*5*4*3*2*1
+puts 7*6*5*4*3*2*1
+puts 8*7*6*5*4*3*2*1
+
+# LS Answer
+puts "LS Approach is the same as mine"
+
+puts "----------------------------------------------------"
+# "----------------------------------------------------"
+
+# 7. What does the following error message tell you?
+
+# SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+ # from /usr/local/rvm/rubies/ruby-2.5.3/bin/irb:16:in `<main>'
+
+# My Answer
+puts "syntax error on line 2"
+
+# LS Answer
+
+puts  "LS"
+
+puts "There is an opening bracket somewhere in the program without a closing bracket following it. It may have happened when creating a hash."
+
+ puts "----------------------------------------------------"
+# "----------------------------------------------------"
+
+
+
+
+
+
+
+
+
+
 
 
 
